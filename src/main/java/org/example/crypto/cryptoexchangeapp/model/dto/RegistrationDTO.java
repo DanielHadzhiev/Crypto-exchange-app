@@ -5,7 +5,11 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
+import org.example.crypto.cryptoexchangeapp.validations.anotations.PasswordMatcher;
+import org.example.crypto.cryptoexchangeapp.validations.anotations.UniqueEmail;
 
+@PasswordMatcher(message = "* The confirm password should match your password")
+@UniqueEmail()
 @Setter
 @Getter
 public class RegistrationDTO {
@@ -15,6 +19,7 @@ public class RegistrationDTO {
 
     @NotBlank(message = "* Email is required")
     @Email(message = "* Invalid email format")
+
     private String email;
 
     @NotBlank(message = "* Password is required")

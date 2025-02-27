@@ -250,6 +250,62 @@ const fetchCryptoData = async () => {
         price: parseFloat(prices.Cardano?.c[0] || '1.20'),
         logo: '/images/cardano.webp'
       },
+      {
+        id: 4,
+        name: 'Tether',
+        symbol: 'USDTZUSD',
+        price: parseFloat(prices.Tether?.c[0]),
+        logo: '/images/tether.webp'
+      },
+      {
+        id: 5,
+        name: 'Solana',
+        symbol: 'SOLUSD',
+        price: parseFloat(prices.Solana?.c[0]),
+        logo: '/images/solana.webp'
+      },
+      {
+        id: 6,
+        name: 'Polkadot',
+        symbol: 'DOTUSD',
+        price: parseFloat(prices.Polkadot?.c[0]),
+        logo: '/images/polkadot.webp'
+      },
+      {
+        id: 7,
+        name: 'Dogecoin',
+        symbol: 'DOGEUSD',
+        price: parseFloat(prices.Dogecoin?.c[0]),
+        logo: '/images/dogecoin.webp'
+      },
+      {
+        id: 8,
+        name: 'Litecoin',
+        symbol: 'LTCUSD',
+        price: parseFloat(prices.Litecoin?.c[0]),
+        logo: '/images/litecoin.webp'
+      },
+      {
+        id: 9,
+        name: 'Chainlink',
+        symbol: 'LINKUSD',
+        price: parseFloat(prices.Chainlink?.c[0]),
+        logo: '/images/chainlink.webp'
+      },
+      {
+        id: 10,
+        name: 'XRP',
+        symbol: 'XRPUSD',
+        price: parseFloat(prices.XRP?.c[0]),
+        logo: '/images/ripple.webp'
+      },
+      {
+        id: 11,
+        name: 'Pepe',
+        symbol: 'PEPEUSD',
+        price: parseFloat(prices.Pepe?.c[0]),
+        logo: '/images/pepe.webp'
+      }
     ]);
   } catch (error) {
     console.error('Error fetching crypto data:', error);

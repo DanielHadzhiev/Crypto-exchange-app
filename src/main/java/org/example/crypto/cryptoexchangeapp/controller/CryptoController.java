@@ -34,6 +34,14 @@ public class CryptoController {
             formattedData.put("Bitcoin", result.get("XXBTZUSD"));
             formattedData.put("Ethereum", result.get("XETHZUSD"));
             formattedData.put("Cardano", result.get("ADAUSD"));
+            formattedData.put("Tether",result.get("USDTZUSD"));
+            formattedData.put("Solana",result.get("SOLUSD"));
+            formattedData.put("Pepe",result.get("PEPEUSD"));
+            formattedData.put("Litecoin",result.get("XLTCZUSD"));
+            formattedData.put("Dogecoin",result.get("XDGUSD"));
+            formattedData.put("XRP",result.get("XXRPZUSD"));
+            formattedData.put("Polkadot",result.get("DOTUSD"));
+            formattedData.put("Chainlink",result.get("LINKUSD"));
         }
 
         return formattedData;
@@ -46,9 +54,18 @@ public class CryptoController {
         Map<String, Object> formattedData = new HashMap<>();
 
         // Directly map the merged keys from the service response.
+
         formattedData.put("Bitcoin", rawData.get("Bitcoin"));
         formattedData.put("Ethereum", rawData.get("Ethereum"));
         formattedData.put("Cardano", rawData.get("Cardano"));
+        formattedData.put("Tether",rawData.get("Tether"));
+        formattedData.put("Solana",rawData.get("Solana"));
+        formattedData.put("Pepe", rawData.get("Pepe"));
+        formattedData.put("Litecoin", rawData.get("Litecoin"));
+        formattedData.put("Dogecoin",rawData.get("Dogecoin"));
+        formattedData.put("XRP",rawData.get("XRP"));
+        formattedData.put("Polkadot",rawData.get("Polkadot"));
+        formattedData.put("Chainlink",rawData.get("Chainlink"));
 
         return formattedData;
     }

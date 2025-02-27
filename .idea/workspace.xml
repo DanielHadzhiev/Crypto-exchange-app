@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="77724ea4-5a78-4ff7-b562-acb7e8b9e8aa" name="Changes" comment="Added some back end logic and kraken api.">
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/service/CacheEvictionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/service/impl/CacheEvictionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/CryptoExchangeAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/CryptoExchangeAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/controller/CryptoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/controller/CryptoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/model/dto/LoginDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/model/dto/LoginDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/model/dto/RegistrationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/model/dto/RegistrationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/model/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/repos/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/repos/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/service/CryptoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/service/CryptoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/service/impl/CryptoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/service/impl/CryptoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/session/CurrentUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/session/CurrentUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/utils/Beans.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/utils/Beans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/validations/PasswordMatcherValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/validations/PasswordMatcherValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/validations/UniqueEmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/validations/UniqueEmailValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/validations/anotations/PasswordMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/validations/anotations/PasswordMatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crypto/cryptoexchangeapp/validations/anotations/UniqueEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/crypto/cryptoexchangeapp/validations/anotations/UniqueEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/crypto/cryptoexchangeapp/CryptoExchangeAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/org/example/crypto/cryptoexchangeapp/CryptoExchangeAppApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DanielHadzhiev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:/DanielHadzhiev/Crypto-exchange-app.git&quot;,
+    &quot;accountId&quot;: &quot;5f0eb1d3-2ace-4bf2-83e0-b963f9e67034&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2tO9MNITCknsKMbrB6Ee5KKlIPW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.CryptoExchangeAppApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/danie/Desktop/Crypto exchange app/backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\Desktop\Crypto exchange app\backend" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.crypto.cryptoexchangeapp.validations" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CryptoExchangeAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="DB_USERNAME" value="root" />
+        <env name="DB_PASSWORD" value="Daniel131205" />
+        <env name="DB_URL" value="jdbc:mysql://localhost:3306/crypto_exchange_db?allowPublicKeyRetrieval=true&amp;useSSL=false&amp;createDatabaseIfNotExist=true&amp;serverTimezone=UTC" />
+      </envs>
+      <module name="crypto-exchange-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.crypto.cryptoexchangeapp.CryptoExchangeAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77724ea4-5a78-4ff7-b562-acb7e8b9e8aa" name="Changes" comment="" />
+      <created>1740212212037</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740212212037</updated>
+      <workItem from="1740212213366" duration="429000" />
+      <workItem from="1740235643114" duration="4614000" />
+      <workItem from="1740243512209" duration="5205000" />
+      <workItem from="1740258760349" duration="128000" />
+      <workItem from="1740326585453" duration="5842000" />
+      <workItem from="1740333533277" duration="119000" />
+      <workItem from="1740337567856" duration="6652000" />
+      <workItem from="1740344957706" duration="1643000" />
+      <workItem from="1740381344273" duration="9194000" />
+      <workItem from="1740415364582" duration="6940000" />
+      <workItem from="1740429084799" duration="5960000" />
+      <workItem from="1740435341672" duration="85000" />
+      <workItem from="1740435538698" duration="9000" />
+      <workItem from="1740475990681" duration="363000" />
+      <workItem from="1740476541539" duration="1786000" />
+      <workItem from="1740479257884" duration="644000" />
+      <workItem from="1740484605840" duration="1947000" />
+      <workItem from="1740487942552" duration="2813000" />
+      <workItem from="1740493705692" duration="2528000" />
+      <workItem from="1740496917831" duration="1478000" />
+      <workItem from="1740514433121" duration="3381000" />
+      <workItem from="1740522114280" duration="356000" />
+      <workItem from="1740581843920" duration="13000" />
+      <workItem from="1740582508581" duration="1320000" />
+      <workItem from="1740595399115" duration="1564000" />
+      <workItem from="1740600612405" duration="2132000" />
+      <workItem from="1740607512518" duration="126000" />
+      <workItem from="1740608222778" duration="421000" />
+      <workItem from="1740649330525" duration="1936000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added some back end logic and kraken api.">
+      <option name="closed" value="true" />
+      <created>1740435068857</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740435068857</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added some back end logic and kraken api." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some back end logic and kraken api." />
+  </component>
+</project>
